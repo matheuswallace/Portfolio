@@ -1,0 +1,66 @@
+@media screen and (max-width: 760px){
+    
+    body{
+        max-width: 100%;
+    }
+    .menu a{
+            display: flex;
+            margin: 0 auto;
+    }
+
+    .logo{
+        align-self: center;
+    }
+
+    nav a{
+        
+    }
+    .navgation{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .apresentacao{
+        display: block;
+        text-align: center;
+    }
+
+    .apresentacao-f{
+        margin: 10% auto;
+        padding: 15px 0;
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .apresentacao img{
+        margin: 5% 0;
+    }
+
+    .sobre-mim{
+        flex-direction: column;
+        
+    }
+
+    .sobre{
+        align-self: center;
+        max-width: 100%;
+        
+    }
+
+    .img-sobre{
+        display: none;
+    }
+
+    .contato p{
+        max-width: 90%;
+    }
+
+    .wpp-email a{
+     font-size: 20px;
+    }
+
+}
