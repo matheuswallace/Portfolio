@@ -3,25 +3,22 @@
     body{
         max-width: 100%;
     }
-    .menu a{
-            display: flex;
-            margin: 0 auto;
-    }
 
-    .logo{
-        align-self: center;
-    }
-
-    nav a{
-        
-    }
-    .navgation{
-        display: flex;
-        margin-top: 20px;
+    .menu{
+        max-width: 100%;
+        font-size:25px;
     }
 
     nav{
-        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .menu .logo{
+        margin: auto ;
+    }
+
+    .navgation{
+        display: none;
     }
 
     .apresentacao{
@@ -55,12 +52,21 @@
         display: none;
     }
 
+    .conhecimentos{
+        max-width: 100%;
+    }
+
+
     .contato p{
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .wpp-email a{
      font-size: 20px;
+    }
+
+    footer{
+        max-width: 100%;
     }
 
 }
